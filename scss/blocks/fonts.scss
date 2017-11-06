@@ -1,0 +1,15 @@
+$fontUrl: '../fonts/';
+
+
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('#{$fontUrl}CenturyGothic.eot?#iefix') format('embedded-opentype'),  url('#{$fontUrl}CenturyGothic.woff') format('woff'), url('#{$fontUrl}CenturyGothic.ttf')  format('truetype'), url('#{$fontUrl}CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('#{$fontUrl}CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),  url('#{$fontUrl}CenturyGothic-Bold.woff') format('woff'), url('#{$fontUrl}CenturyGothic-Bold.ttf')  format('truetype'), url('#{$fontUrl}CenturyGothic-Bold.svg#CenturyGothic-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}

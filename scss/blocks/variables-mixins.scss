@@ -1,0 +1,19 @@
+// Variables
+
+$pink: #F4B8DA;
+$dark-pink: #DB1283;
+$gray: #DFDAD4;
+$order-gray: #E4DED4;
+$brown-text: #75442A;
+
+
+
+// Mixins and functions
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+@mixin fontSize($size) {
+  font-size: calculateRem($size);
+}

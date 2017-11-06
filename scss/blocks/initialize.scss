@@ -1,0 +1,16 @@
+html{
+	font-size: 11px;
+}
+body{
+	font-family: 'CenturyGothic', Tahoma, Verdana, Arial;
+	font-weight: normal;
+	font-size: 11px;
+	color: #222;
+}
+button:focus, a:focus, input:focus{
+	outline: none;
+}
+a:active{
+	text-decoration: none;
+	color: #222;
+}
